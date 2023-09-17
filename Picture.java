@@ -4,7 +4,7 @@
  * can be changed. You can set it to black-and-white display and back to
  * colors (only after it's been drawn, of course).
  *
- * This class shows an ocean and a lighthouse on a island. 
+ * This is a class with a house on an island in the middle of an ocean
  * 
  * @author  kevin vojtek 
  * @version 2016.02.29
