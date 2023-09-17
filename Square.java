@@ -21,8 +21,10 @@ public class Square
     public Square()
     {
         size = 60;
-        xPosition = 310;
-        yPosition = 120;
+        xPosition = 0;
+        yPosition = 0; 
+        //xPosition = 310;
+        //yPosition = 120;
         color = "red";
         isVisible = false;
     }
@@ -50,7 +52,7 @@ public class Square
      */
     public void moveRight()
     {
-        moveHorizontal(20);
+        moveHorizontal(10);
     }
 
     /**
@@ -58,14 +60,14 @@ public class Square
      */
     public void moveLeft()
     {
-        moveHorizontal(-20);
+        moveHorizontal(-10);
     }
 
     /**
      * Move the square a few pixels up.
      */
     public void moveUp()
-    {
+    { 
         moveVertical(-20);
     }
 

@@ -226,5 +226,6 @@ public class Canvas
             graphic.fill(shape);
         }
     }
+   
 
 }
